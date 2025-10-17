@@ -1,0 +1,20 @@
+2025-10-17 16:48:32 [ERROR] EuphoriaPatcher: You need to have ComplementaryShaders_r5.6.1 installed!
+2025-10-17 16:48:32 [ERROR] EuphoriaPatcher: Please download it from https://www.complementary.dev/ and place it into your shaderpacks folder.
+
+--------------------------------------
+Restart happened
+--------------------------------------
+2025-10-17 16:49:54 [ERROR] EuphoriaPatcher: You need to have ComplementaryShaders_r5.6.1 installed!
+2025-10-17 16:49:54 [ERROR] EuphoriaPatcher: Please download it from https://www.complementary.dev/ and place it into your shaderpacks folder.
+
+--------------------------------------
+Restart happened
+--------------------------------------
+2025-10-17 16:50:50 [ERROR] EuphoriaPatcher: You need to have ComplementaryShaders_r5.6.1 installed!
+2025-10-17 16:50:50 [ERROR] EuphoriaPatcher: Please download it from https://www.complementary.dev/ and place it into your shaderpacks folder.
+
+--------------------------------------
+Restart happened
+--------------------------------------
+2025-10-17 16:53:31 [ERROR] EuphoriaPatcher: You need to have ComplementaryShaders_r5.6.1 installed!
+2025-10-17 16:53:31 [ERROR] EuphoriaPatcher: Please download it from https://www.complementary.dev/ and place it into your shaderpacks folder.
