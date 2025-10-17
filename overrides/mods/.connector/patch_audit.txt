@@ -1,0 +1,27 @@
+==== Connector Mixin Patch Audit Summary ====
+Successful: 1
+Partial: 2
+Failed: 3
+Success rate: 50.00%        Accuracy: 33.33%
+=============================================
+
+=============== Failed mixins ===============
+fuzs/puzzleslib/fabric/mixin/client/ScreenEffectRendererFabricMixin renderScreenEffect(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/Minecraft;Lcom/mojang/blaze3d/vertex/PoseStack;)Lnet/minecraft/world/level/block/state/BlockState;
+net/mehvahdjukaar/moonlight/core/mixins/fabric/EffectInstanceMixin ml$allowModPostShaderRes(Ljava/lang/String;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Ljava/lang/String;Lcom/mojang/blaze3d/shaders/Program$Type;)Lnet/minecraft/resources/ResourceLocation;
+net/mehvahdjukaar/moonlight/core/mixins/fabric/EffectInstanceMixin ml$allowModShaderRes(Ljava/lang/String;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+=============================================
+
+Mixin method net/mehvahdjukaar/moonlight/core/mixins/fabric/ClientPacketListenerMixin moonlight$storeOldModelData(Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;Lnet/minecraft/world/level/block/entity/BlockEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lcom/llamalad7/mixinextras/sugar/ref/LocalRef;)V
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionPoint
+     - Change injection point to Lnet/minecraft/world/level/block/entity/BlockEntity;onDataPacket(Lnet/minecraft/network/Connection;Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;Lnet/minecraft/core/HolderLookup$Provider;)V
+
+Mixin method net/mehvahdjukaar/moonlight/core/mixins/fabric/ClientPacketListenerMixin moonlight$callModelDataCallback(Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;Lnet/minecraft/world/level/block/entity/BlockEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lcom/llamalad7/mixinextras/sugar/ref/LocalRef;)V
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionPoint
+     - Change injection point to Lnet/minecraft/world/level/block/entity/BlockEntity;onDataPacket(Lnet/minecraft/network/Connection;Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;Lnet/minecraft/core/HolderLookup$Provider;)V
+
+Mixin method fuzs/puzzleslib/fabric/mixin/client/GuiFabricMixin renderPlayerHealth(ILnet/minecraft/client/gui/GuiGraphics;)I
+  >> Using org.sinytra.adapter.patch.transformer.dynfix.DynFixSplitMethod
+     - Adjusting split method target to renderAirLevel(Lnet/minecraft/client/gui/GuiGraphics;)V
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionTarget
+     - Change mixin target to [renderAirLevel(Lnet/minecraft/client/gui/GuiGraphics;)V]
+
